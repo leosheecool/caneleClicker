@@ -1,2 +1,0 @@
-# caneleClicker
-Created with CodeSandbox
