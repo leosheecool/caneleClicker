@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="src/img/canele-vec.png" />
+    <link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/new.css" />
+    <link rel="shortcut icon" href="src/img/canele-vec.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Neucha|Pacifico"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Canelé Clicker</h1>
+          <div class="image-cadre">
+            <img src="src/img/Caneles_stemilion.jpg" alt="canele" />
+          </div>
+        </div>
+        <div class="col-4 elem">
+          <img onclick="bake()" class="clicky" src="src/img/canele-vec.png" />
+        </div>
+        <div class="col-4 elem">
+          <button
+            class="btn btn-block btn-buy"
+            id="ovenBtn"
+            onclick="buyOven()"
+            disabled="true"
+          >
+            Buy Oven (25)
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--<div id="app"></div>-->
 
-<body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+    <script src="src/index.js"></script>
+  </body>
 </html>

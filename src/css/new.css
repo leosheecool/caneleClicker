@@ -1,0 +1,19 @@
+h1 {
+  color: #5f021f;
+  font-family: "Pacifico", recursive;
+  margin: 30px;
+}
+
+.image-cadre {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.image-cadre img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rm;
+}
